@@ -5,7 +5,7 @@ Robot Status Monitoring Systemは、ROS 2を使用してロボットの状態（
 ---
 
 # 動作環境
-このパッケージは以下の環境で動作が確認済み:
+このパッケージは以下の環境で動作が確認済み
 
 - OS: Ubuntu 22.04 LTS
 - ROS 2 バージョン名: foxy
