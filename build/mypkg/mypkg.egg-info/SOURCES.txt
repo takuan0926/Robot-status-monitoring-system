@@ -8,9 +8,14 @@ setup.py
 ../../build/mypkg/mypkg.egg-info/requires.txt
 ../../build/mypkg/mypkg.egg-info/top_level.txt
 ../../build/mypkg/mypkg.egg-info/zip-safe
+launch/status_publisher_launch.py
 mypkg/__init__.py
 mypkg/status_publisher.py
+mypkg.egg-info/PKG-INFO
+mypkg.egg-info/SOURCES.txt
+mypkg.egg-info/dependency_links.txt
+mypkg.egg-info/entry_points.txt
+mypkg.egg-info/requires.txt
+mypkg.egg-info/top_level.txt
+mypkg.egg-info/zip-safe
 resource/mypkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

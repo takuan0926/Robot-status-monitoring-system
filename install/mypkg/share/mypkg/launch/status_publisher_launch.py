@@ -1,0 +1,1 @@
+/home/takuma/2ros2_ws/build/mypkg/launch/status_publisher_launch.py
