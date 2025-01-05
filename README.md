@@ -1,4 +1,4 @@
-# ロボットの状態監視システム
+# Robot Status Monitoring System
 
 Robot Status Monitoring Systemは、ROS 2を使用してロボットの状態（バッテリー残量、位置、速度、動作モード）を定期的にパブリッシュするシステムです。
 
@@ -6,9 +6,8 @@ Robot Status Monitoring Systemは、ROS 2を使用してロボットの状態（
 
 # 動作環境
 このパッケージは以下の環境で動作が確認済み
-
-- OS: Ubuntu 22.04 LTS
-- ROS 2 バージョン名: foxy
+- OS: Ubuntu 22.04 LTS (推奨)
+- ROS 2 バージョン: Foxy (他のバージョンでの動作は確認されていません)
 
 ---
 
@@ -35,7 +34,8 @@ Robot Status Monitoring Systemは、ROS 2を使用してロボットの状態（
 ## 1.リポジトリのクローン
 
    ```
-   git clone https://github.com/<your-username>/Robot-status-monitoring-system.git
+   git clone https://github.com/your-username/Robot-status-monitoring-system.git
+
    cd Robot-status-monitoring-system
    ```
 
@@ -54,7 +54,7 @@ Robot Status Monitoring Systemは、ROS 2を使用してロボットの状態（
    ```
 ros2 run mypkg status_publisher
    ```
-出力
+実行例
    ```
 [INFO] [1736073956.632897448] [status_publisher]: ロボットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6, 速度: 0.5 m/s, 稼働時間: 1.00 秒, エラー: 問題なし, モード: Idle
 [INFO] [1736073957.618620834] [status_publisher]: ロボットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6, 速度: 0.5 m/s, 稼働時間: 2.00 秒, エラー: 問題なし, モード: Idle
@@ -62,12 +62,12 @@ ros2 run mypkg status_publisher
 [INFO] [1736073959.620115984] [status_publisher]: ロボットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6, 速度: 0.5 m/s, 稼働時間: 4.00 秒, エラー: 問題なし, モード: Idle
 [INFO] [1736073960.619073883] [status_publisher]: ロボットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6, 速度: 0.5 m/s, 稼働時間: 5.00 秒, エラー: 問題なし, モード: Idle
    ```
-## 1.Launchファイルを使った起動
+## 2.Launchファイルを使った起動
    パブリッシャーノードを起動するには、以下のコマンドを実行してください。
    ```
    ros2 launch mypkg status_publisher_launch.py
    ```
-出力
+実行例
    ```
 [status_publisher-1] [INFO] [1736074046.651301010] [status_publisher]: ロボ ットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6,  速度: 0.5 m/s, 稼働時間: 1.00 秒, エラー: 問題なし, モード: Idle
 [status_publisher-1] [INFO] [1736074047.639295454] [status_publisher]: ロボ ットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6,  速度: 0.5 m/s, 稼働時間: 2.00 秒, エラー: 問題なし, モード: Idle
@@ -77,12 +77,12 @@ ros2 run mypkg status_publisher
    ```
 
 
-## 2.トピックの確認
+## 3.トピックの確認
    パブリッシュされたデータを確認するには、以下を実行してください。
    ```
    ros2 topic echo /robot_status
    ```
-出力
+実行例
    ```
 data: 'バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6, 速度: 0.5 m/s, 稼働 時間: 5.00 秒, エラー: 問題なし, モード: Idle'
 ---
