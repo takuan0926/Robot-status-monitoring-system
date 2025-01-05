@@ -69,7 +69,6 @@ ros2 run mypkg status_publisher
    ```
 出力
    ```
-[INFO] [status_publisher-1]: process started with pid [15206]
 [status_publisher-1] [INFO] [1736074046.651301010] [status_publisher]: ロボ ットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6,  速度: 0.5 m/s, 稼働時間: 1.00 秒, エラー: 問題なし, モード: Idle
 [status_publisher-1] [INFO] [1736074047.639295454] [status_publisher]: ロボ ットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6,  速度: 0.5 m/s, 稼働時間: 2.00 秒, エラー: 問題なし, モード: Idle
 [status_publisher-1] [INFO] [1736074048.638868550] [status_publisher]: ロボ ットの状態を公開しました: バッテリー: 75.0%, 位置: x: 1.2, y: 3.4, z: 5.6,  速度: 0.5 m/s, 稼働時間: 3.00 秒, エラー: 問題なし, モード: Idle
