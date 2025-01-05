@@ -34,9 +34,8 @@ Robot Status Monitoring Systemは、ROS 2を使用してロボットの状態（
 ## 1.リポジトリのクローン
 
    ```
-   git clone https://github.com/your-username/Robot-status-monitoring-system.git
-
-   cd Robot-status-monitoring-system
+   git clone https://github.com/your-username/mypkg.git
+   cd mypkg
    ```
 
 ## 2.ビルド
@@ -50,7 +49,8 @@ Robot Status Monitoring Systemは、ROS 2を使用してロボットの状態（
 
 # 使用方法
 
-## 1.デフォルトでは、status_publisherを実行できます
+## 1. status_publisherの起動
+デフォルトでは、`/robot_status`トピックにロボットの状態をパブリッシュします。
    ```
 ros2 run mypkg status_publisher
    ```
