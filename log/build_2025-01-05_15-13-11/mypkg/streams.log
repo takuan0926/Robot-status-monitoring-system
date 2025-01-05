@@ -1,0 +1,24 @@
+[0.416s] Invoking command in '/home/takuma/2ros2_ws/build/mypkg': PYTHONPATH=/home/takuma/2ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/takuma/2ros2_ws/build/mypkg/build --no-deps symlink_data --force
+[0.529s] /home/takuma/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.529s]   warnings.warn(
+[0.556s] running develop
+[0.557s] /home/takuma/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.557s]   warnings.warn(
+[0.621s] running egg_info
+[0.621s] writing mypkg.egg-info/PKG-INFO
+[0.621s] writing dependency_links to mypkg.egg-info/dependency_links.txt
+[0.622s] writing entry points to mypkg.egg-info/entry_points.txt
+[0.622s] writing requirements to mypkg.egg-info/requires.txt
+[0.622s] writing top-level names to mypkg.egg-info/top_level.txt
+[0.626s] reading manifest file 'mypkg.egg-info/SOURCES.txt'
+[0.627s] writing manifest file 'mypkg.egg-info/SOURCES.txt'
+[0.645s] running build_ext
+[0.645s] Creating /home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg.egg-link (link to .)
+[0.646s] Installing status_publisher script to /home/takuma/2ros2_ws/install/mypkg/lib/mypkg
+[0.646s] 
+[0.646s] Installed /home/takuma/2ros2_ws/build/mypkg
+[0.646s] running symlink_data
+[0.646s] symbolically linking /home/takuma/2ros2_ws/build/mypkg/resource/mypkg -> /home/takuma/2ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.646s] symbolically linking /home/takuma/2ros2_ws/build/mypkg/package.xml -> /home/takuma/2ros2_ws/install/mypkg/share/mypkg
+[0.647s] symbolically linking /home/takuma/2ros2_ws/build/mypkg/launch/talk_listen.launch.py -> /home/takuma/2ros2_ws/install/mypkg/share/mypkg
+[0.662s] Invoked command in '/home/takuma/2ros2_ws/build/mypkg' returned '0': PYTHONPATH=/home/takuma/2ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/takuma/2ros2_ws/build/mypkg/build --no-deps symlink_data --force

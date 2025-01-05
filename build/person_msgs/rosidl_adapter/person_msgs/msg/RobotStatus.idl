@@ -2,16 +2,23 @@
 // with input from person_msgs/msg/RobotStatus.msg
 // generated code does not contain a copyright notice
 
-#include "geometry_msgs/msg/Point.idl"
 
 module person_msgs {
   module msg {
+    @verbatim (language="comment", text=
+      " RobotStatus.msg")
     struct RobotStatus {
-      string robot_name;
-
       float battery_level;
 
-      geometry_msgs::msg::Point position;
+      string position;
+
+      float speed;
+
+      float uptime;
+
+      string error_status;
+
+      string mode;
     };
   };
 };

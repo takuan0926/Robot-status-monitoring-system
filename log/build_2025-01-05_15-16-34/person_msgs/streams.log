@@ -1,0 +1,22 @@
+[0.142s] Invoking command in '/home/takuma/2ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/takuma/2ros2_ws/install/person_msgs:/home/takuma/ros2_ws/install:/home/takuma/ros2_ws/src/install/person_msg:/home/takuma/ros2_ws/install/my_project:/home/takuma/ros2_ws/install/current_time_publisher:/home/takuma/2ros2_ws/install/mypkg:/home/takuma/ros2_ws/src/install/data_processing::/home/takuma/ros2_ws/install/mypkg:/home/takuma/ros2_ws/install/area_calculator:/opt/ros/foxy:/home/takuma/ros2_ws/src/install/person_msgs:/home/takuma/ros2_ws/install/person_msgs /usr/bin/cmake /home/takuma/2ros2_ws/src/person_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/takuma/2ros2_ws/install/person_msgs
+[0.149s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.163s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.256s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.260s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.324s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.990s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.008s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.079s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[2.079s]   Packages installing interfaces must include
+[2.079s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[2.079s]   package.xml
+[2.079s] Call Stack (most recent call first):
+[2.079s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[2.079s] 
+[2.079s] 
+[2.080s] -- Configuring incomplete, errors occurred!
+[2.080s] See also "/home/takuma/2ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[2.085s] Invoked command in '/home/takuma/2ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=/home/takuma/2ros2_ws/install/person_msgs:/home/takuma/ros2_ws/install:/home/takuma/ros2_ws/src/install/person_msg:/home/takuma/ros2_ws/install/my_project:/home/takuma/ros2_ws/install/current_time_publisher:/home/takuma/2ros2_ws/install/mypkg:/home/takuma/ros2_ws/src/install/data_processing::/home/takuma/ros2_ws/install/mypkg:/home/takuma/ros2_ws/install/area_calculator:/opt/ros/foxy:/home/takuma/ros2_ws/src/install/person_msgs:/home/takuma/ros2_ws/install/person_msgs /usr/bin/cmake /home/takuma/2ros2_ws/src/person_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/takuma/2ros2_ws/install/person_msgs

@@ -1,4 +1,8 @@
-string robot_name
+# RobotStatus.msg
 float32 battery_level
-geometry_msgs/Point position
+string position
+float32 speed
+float32 uptime
+string error_status
+string mode
 
