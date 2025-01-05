@@ -1,0 +1,26 @@
+[0.355s] Invoking command in '/home/takuma/2ros2_ws/src/mypkg': PYTHONPATH=/home/takuma/2ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/takuma/2ros2_ws/build/mypkg/build install --record /home/takuma/2ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
+[0.454s] /home/takuma/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.454s]   warnings.warn(
+[0.468s] running egg_info
+[0.468s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.469s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.469s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.470s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.470s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.471s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.471s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] copying mypkg/status_publisher.py -> /home/takuma/2ros2_ws/build/mypkg/build/lib/mypkg
+[0.472s] running install
+[0.472s] running install_lib
+[0.473s] copying /home/takuma/2ros2_ws/build/mypkg/build/lib/mypkg/status_publisher.py -> /home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.473s] byte-compiling /home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/status_publisher.py to status_publisher.cpython-38.pyc
+[0.474s] running install_data
+[0.474s] running install_egg_info
+[0.475s] removing '/home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.475s] Copying ../../build/mypkg/mypkg.egg-info to /home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.475s] running install_scripts
+[0.485s] Installing status_publisher script to /home/takuma/2ros2_ws/install/mypkg/lib/mypkg
+[0.485s] writing list of installed files to '/home/takuma/2ros2_ws/build/mypkg/install.log'
+[0.499s] Invoked command in '/home/takuma/2ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/takuma/2ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/takuma/2ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/takuma/2ros2_ws/build/mypkg/build install --record /home/takuma/2ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
