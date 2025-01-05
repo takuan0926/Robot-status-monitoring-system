@@ -9,21 +9,31 @@ ng () {
 
 res=0
 
-#正常なとき
-out=$(echo "10000 10" | python3 ./tiac)
-if [[ "$out" != *"税込み: 11000.00円"* ]]; then
+source /opt/ros/foxy/setup.bash
+source ~/your_ros_workspace/install/setup.bash
+
+colcon build --symlink-install
+source install/setup.bash
+
+ros2 run mypkg status_publisher.py &
+
+sleep 3
+
+out=$(ros2 topic echo /robot_status --once)
+if [[ "$out" != *"バッテリー:"* ]] || [[ "$out" != *"稼働時間:"* ]] || [[ "$out" != *"モード:"* ]]; then
     ng "$LINENO"
 fi
 
-#不正な入力なとき
-out=$(echo "not_a_number 10" | python3 ./tiac 2>&1)
-if [[ "$out" != *"エラー: 数値を入力してください。"* ]]; then
+out=$(ros2 topic echo /invalid_status 2>&1)
+if [[ "$out" != *"トピックが見つかりません"* ]]; then
     ng "$LINENO"
 fi
 
-#結果表示
+kill %1
+
 if [ "${res}" = 0 ]; then
     echo OK
 else
     exit 1
 fi
+
