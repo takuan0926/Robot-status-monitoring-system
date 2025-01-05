@@ -1,0 +1,2 @@
+Invoking command in '/home/takuma/2ros2_ws/src/person_msgs/build/person_msgs': /usr/bin/cmake /home/takuma/2ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/takuma/2ros2_ws/src/person_msgs/install/person_msgs
+Invoked command in '/home/takuma/2ros2_ws/src/person_msgs/build/person_msgs' returned '1': /usr/bin/cmake /home/takuma/2ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/takuma/2ros2_ws/src/person_msgs/install/person_msgs
